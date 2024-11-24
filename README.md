@@ -36,32 +36,32 @@ Ensure you have the following installed:
    ```bash  
    git clone https://github.com/chinmay706/VRV-Security.git  
    cd VRV-Security  
-# Configure Environment Variables
-# Duplicate .env.example and rename it to .env
-cp .env.example .env
+# 1. Configure Environment Variables  
+# Duplicate .env.example and rename it to .env  
+cp .env.example .env  
 
-# Open the .env file and provide values for the required variables
-# Example:
-# DATABASE_HOST=localhost
-# JWT_SECRET=your_secret_key
+# Open the .env file and provide values for the required variables  
+# Example:  
+# DATABASE_HOST=localhost  
+# JWT_SECRET=your_secret_key  
 
-# Install Dependencies
-npm install
+# 2. Install Dependencies  
+npm install  
 
-# Set up PostgreSQL and Redis with Docker
-docker compose up
+# 3. Set up PostgreSQL and Redis with Docker  
+docker compose up  
 
-# Running the Application
+# 4. Running the Application  
 
-# Development mode
-npm run start
+# Development mode  
+npm run start  
 
-# Watch mode (auto-restart on file changes)
-npm run start:dev
+# Watch mode (auto-restart on file changes)  
+npm run start:dev  
 
-# Production mode
-npm run start:prod
+# Production mode  
+npm run start:prod  
 
-# Testing the Application
-# Open Postman and import the VRV-Security.postman_collection file
+# 5. Testing the Application  
+# Open Postman and import the VRV-Security.postman_collection file  
 # Explore the APIs under the collection "VRV-Security" in your workspace
